@@ -1,0 +1,48 @@
+# 🔹 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔹 Virtual environments
+venv/
+env/
+.venv/
+
+# 🔹 Jupyter notebooks
+notebooks/
+.ipynb_checkpoints/
+*.ipynb
+
+# 🔹 Dataset (VERY IMPORTANT)
+data/
+
+# 🔹 Environment variables
+.env
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 Logs
+*.log
+
+# 🔹 Model files (ignore if large, else remove this line)
+*.pkl
+*.joblib
+
+# 🔹 Streamlit (ignore entire folder)
+.streamlit/
+
+# 🔹 Node modules
+node_modules/
+
+# 🔹 Build files
+dist/
+build/
+
+# 🔹 VS Code settings
+.vscode/
+
+# 🔹 Temporary files
+*.tmp
+*.swp
