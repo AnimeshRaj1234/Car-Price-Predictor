@@ -1,23 +1,35 @@
-create virtual environment:
-    python -m venv venv
-    venv\Scripts\activate
+# 🚗 Car Price Predictor
 
-    upgrade pip: 
-    python.exe -m pip install --upgrade pip
+A Machine Learning web app that predicts the resale price of a car based on various features like price, kilometers driven, fuel type, and more.
 
-    install these lib:
-    pip install pandas numpy scikit-learn matplotlib seaborn
+Built using **Python, Scikit-learn, and Streamlit**.
 
-    for using jb notebook in vs code do this:
-    pip install jupyter ipykernel
+---
 
-    => create test.ipynb file and select created venv for kernel
-    => to verify you selected right kernel run this code =>
-       import sys
-       print(sys.executable)
+## 📌 Features
 
-    => finding all installed libs do this :
-       !pip list in jpnb
+- Predict car resale price instantly 💰  
+- Clean and interactive UI using Streamlit  
+- Trained using Random Forest Regressor  
+- Real-world dataset based prediction  
+- Proper feature engineering & preprocessing  
 
-   => for requirement.txt we need this command
-   pip freeze > requirements.txt
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Streamlit  
+
+---
+
+## ⚙️ Setup Instructions
+
+### 🔹 1. Clone the Repository
+
+```bash
+git clone https://github.com/AnimeshRaj1234/Car-Price-Predictor.git
+cd Car-Price-Predictor
